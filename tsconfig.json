@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+    "moduleResolution": "node",
+    "paths": {
+      "three/examples/jsm/controls/OrbitControls": ["./node_modules/@types/three/examples/jsm/controls/OrbitControls"]
+    },
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "lib": ["es2016", "dom"],  // 'es2016' 以上を指定
+    "jsx": "react-jsx"         // JSXの設定を追加
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue"]
+}
